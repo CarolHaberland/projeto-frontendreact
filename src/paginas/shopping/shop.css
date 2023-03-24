@@ -1,0 +1,86 @@
+.shopTitle {
+    margin-top: 0px;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    height: 262px;
+    background-image: url("D:\Labenu Exercicios\projeto-react\src\assets\Galaxia-scaled.jpg") ;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.produtos{
+    width: 100%;
+    height: auto;
+    margin-top: 97px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    margin-bottom: 15px;
+}
+
+.produto{
+    border-radius: 15px;
+    width: 300px;
+    height: 350px;
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.produto img {
+    width: 400px;
+}
+
+.produto .descricao {
+    text-align: center;
+}
+
+.produto:hover{
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+
+.botaoAddNoCarrinho{
+    background-color: transparent;
+    border: 2px solid rgb(19, 19, 19);
+    color: black;
+    min-width: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 18px;
+}
+
+
+.botaoAddNoCarrinho:hover{
+    background-color: rgb(19, 19, 19);
+    color: white;
+    cursor: pointer;
+}
+
+.barraPesquisa{
+    margin-top: 73px;
+    width: 650px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 22px;
+    left: 424px;
+    position: absolute;
+}
+
+.select {
+    margin-top: 74px;
+    width: 372px;
+    position: absolute;
+    left: 1118px;
+}
+
+.shopTitle > h1{
+    margin: 0;
+}
