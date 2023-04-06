@@ -1,0 +1,23 @@
+.navbar {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(1, 1, 24);
+    background-image: url("D:\Labenu Exercicios\projeto-react\src\assets\Galaxia-scaled.jpg") ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links {
+    margin-right: 50px;
+    gap: 1450px;
+    display: flex;
+    align-items: center;
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    font-size: 25px;
+}
